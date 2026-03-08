@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RootStory | Plants & Gardening</title>
+<style>
+body{margin:0;font-family:Arial, Helvetica, sans-serif;background:#ffffff;color:#1F1F1F}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;box-shadow:0 2px 8px rgba(0,0,0,0.05)}
+.logo{font-size:24px;font-weight:bold;color:#2E7D32}
+nav a{margin-left:20px;text-decoration:none;color:#1F1F1F;font-weight:500}
+.hero{padding:80px 8%;text-align:center;background:#F5F7F5}
+.hero h1{font-size:40px;margin-bottom:10px}
+.hero p{max-width:600px;margin:auto;margin-bottom:25px}
+.btn{background:#2E7D32;color:white;padding:12px 22px;border:none;border-radius:6px;text-decoration:none;font-weight:bold}
+.section{padding:60px 8%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{border:1px solid #eee;border-radius:8px;padding:20px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05)}
+form{max-width:600px;margin:auto}
+input,textarea{width:100%;padding:12px;margin-bottom:15px;border:1px solid #ddd;border-radius:6px}
+button{background:#2E7D32;color:white;padding:12px;border:none;border-radius:6px;width:100%;font-size:16px}
+footer{background:#1F1F1F;color:white;text-align:center;padding:25px;margin-top:40px}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">RootStory</div>
+<nav>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Grow Your Green Story</h1>
+<p>RootStory brings nature closer to your home with beautiful plants and gardening essentials designed for modern living.</p>
+<a class="btn" href="#contact">Order Now</a>
+</section>
+
+<section class="section" id="about">
+<h2>About RootStory</h2>
+<p>RootStory is a modern plant brand created for people who love nature and want greener homes. We provide carefully selected plants, gardening tools, and beginner-friendly kits to make growing plants simple and enjoyable.</p>
+</section>
+
+<section class="section" id="products">
+<h2>Popular Products</h2>
+<div class="grid">
+<div class="card">
+<h3>Indoor Plants</h3>
+<p>Beautiful low-maintenance plants perfect for homes and offices.</p>
+</div>
+<div class="card">
+<h3>Balcony Garden Kits</h3>
+<p>Everything you need to start your own balcony garden.</p>
+</div>
+<div class="card">
+<h3>Gardening Tools</h3>
+<p>High-quality tools for easy and enjoyable gardening.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact & Order</h2>
+<p style="text-align:center">Fill the form below to place an order or contact us.</p>
+
+<form action="mailto:ansarii.shadman@proton.me" method="post" enctype="text/plain">
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<input type="text" name="Product" placeholder="Product you want to order" required>
+<textarea name="Message" placeholder="Address or message" rows="5"></textarea>
+<button type="submit">Send Order</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 RootStory. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
